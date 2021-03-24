@@ -7,8 +7,11 @@
 var app = new Vue ({
     el:'#root',
     data: {
-      message: 'Ora è tempo di Vue JS!!!'
+      message: 'Ora è tempo di Vue JS!!!',
+      img: 'img/vue_logo.png'
+    },
+    methods: {
+      
     }
   }
-
 );
