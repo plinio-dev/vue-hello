@@ -1,0 +1,25 @@
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+button {
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: white;
+
+}
+button:focus {
+  outline: none;
+  cursor: pointer;
+}
+.wrapper {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 50px;
+}
